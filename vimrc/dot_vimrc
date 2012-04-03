@@ -1,0 +1,25 @@
+# my standard .vimrc from scratch
+:set cindent
+:set expandtab
+:set foldtype=indent
+:set hlsearch   # shortcus: hls
+:set ignorecase
+:set incsearch
+:set mouse=a
+:set tags=~/InventorySvn/inventory/tags;
+:set ruler
+:set showmatch
+:set sw=2
+:set tabstop 2
+:syntax on
+
+:nnoremap <F2> a.map {  }<CR><ESC>k$hi
+:nnoremap <F3> i<CR>def CHANGE_ME()<CR><CR>end<CR><ESC>3k0wvw
+:imap <F6> try {<CR>// TODO: add code here!<CR>} catch(Exception e) {<CR>// TODO: addd code here!<CR>}<CR><ESC>4k0w
+:map <F7> :/System.out.println/<CR>d5wilog.debug<ESC>bv5l
+:nnoremap <F8> :set nohlsearch <CR>
+:map <F9> 9dd
+:map <F10> :set filetype=javascript <CR>
+
+:ab Sout System.out.println("");
+
