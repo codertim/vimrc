@@ -23,3 +23,6 @@
 
 :ab Sout System.out.println("");
 
+:colorscheme neverness
+# :colorscheme peaksea
+
