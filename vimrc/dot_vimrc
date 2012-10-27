@@ -15,6 +15,7 @@
 
 :nnoremap <F2> a.map {  }<CR><ESC>k$hi
 :nnoremap <F3> i<CR>def CHANGE_ME()<CR><CR>end<CR><ESC>3k0wvw
+:nnoremap <F4> /_<CR>x~     " change underscore to camel case
 :imap <F6> try {<CR>// TODO: add code here!<CR>} catch(Exception e) {<CR>// TODO: addd code here!<CR>}<CR><ESC>4k0w
 :map <F7> :/System.out.println/<CR>d5wilog.debug<ESC>bv5l
 :nnoremap <F8> :set nohlsearch <CR>
