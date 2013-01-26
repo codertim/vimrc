@@ -11,7 +11,9 @@
 :set showmatch
 :set sw=2
 :set tabstop 2
+:set tags=tags;/
 :syntax on
+
 
 :nnoremap <F2> a.map {  }<CR><ESC>k$hi
 :nnoremap <F3> i<CR>def CHANGE_ME()<CR><CR>end<CR><ESC>3k0wvw
