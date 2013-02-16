@@ -1,5 +1,6 @@
 # my standard .vimrc from scratch
 :set cindent
+:set tags=tags;\
 :set expandtab
 :set foldtype=indent
 :set hlsearch   # shortcus: hls
